@@ -1,0 +1,20 @@
+不存在首次开机的概念，那第一次auocheck是什么时候
+是否第一次网络变化时就autocheck
+1. network state change
+这个只是有网和无法间的切换？刷版本后首次开机或者恢复出厂，autocheck怎么进行的？
+--autocheck前检init
+
+2. missalarm之后 check_interval_seconds
+时间多长，之前是1/2/4重试，4小时后重新开始autocheck周期
+
+3. download 地址默认手机，插SD卡同样如此
+通过WEIDE 修改，3.0是否还支持此操作
+
+4.下载前使用SIM DATA，选择wifi-only,提示
+下载过程中从“WIFI or mobile network”切换到 "wifi only"不会下载终止，那如果暂停的时候修改呢？
+
+5.安全前会检查download record，如果不合法手动安装时会弹出dialogue，如果自动安装时呢?
+	
+
+
+
